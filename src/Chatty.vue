@@ -1,6 +1,8 @@
 <template>
     <div>
-        <ul id="messages"></ul>
+        <ul id="messages">
+            <li v-for="message in messages" :key="message.id"></li>
+        </ul>
         <form action="">
             <input id="m" autocomplete="off" /><button>Send</button>
         </form>
@@ -24,7 +26,12 @@ $(function() {
 });
 
 export default {
-    name: 'Chatty'
+    name: 'Chatty',
+    data: () => {
+        return {
+            messages: []
+        }
+    }
 }
 
 </script>
