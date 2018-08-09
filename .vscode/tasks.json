@@ -13,6 +13,11 @@
             "label": "run app",
             "command": "node app.js",
             "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "problemMatcher": []
         }
     ]
 }
