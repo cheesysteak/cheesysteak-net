@@ -1,29 +1,31 @@
 var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var logger = require('./server/Logger');
-var socketSetup = require('./server/SocketSetup.js');
+var logger = require('./Logger');
 
+var chattyServer = require('./ChattyServer.js');
+var onitamaSever = require('./OnitamaServer');
+var socketSetup = require('./SocketSetup');
 
+var rootDir = './dist';
 
 var port = 3000;
 
-var currentUserId = 1;
 
 app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/web/index.html');
+    res.sendFile('index.html', { root: rootDir });
 });
 
 app.get('/main.js', function(req, res) {
-    res.sendFile(__dirname + '/web/main.js');
+    res.sendFile('main.js', { root: rootDir });
 });
 
 io.on('connection', function(socket) {
-    socket.currentUserId = currentUserId++;
-
     console.log(socketSetup);
 
     socketSetup.initializeSocket(socket, io);
+    chattyServer.setupChatty(socket, io);
+    onitamaSever.setupOnitama(socket, io);
 
 });
 

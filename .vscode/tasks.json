@@ -11,7 +11,7 @@
         {
             "type": "shell",
             "label": "run app",
-            "command": "node app.js",
+            "command": "node ./server/app.js",
             "problemMatcher": []
         },
         {

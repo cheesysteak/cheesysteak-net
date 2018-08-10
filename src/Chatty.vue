@@ -1,12 +1,14 @@
 <template>
-    <div>
+    <div id="chatty">
         <ul id="messages">
-            <li v-for="(msg, index) in messages" :key="index">
-                {{ msg }}
+            <li class="messageContainer" v-for="(msg, index) in messages" :key="index">
+                <div class="user">{{ msg.user }}</div>
+                <div class="messageContent">{{ msg.message }}</div>
             </li>
         </ul>
-        <form @submit.prevent="sendMessage">
-            <input v-model="message" autocomplete="off" /><button type="submit">Send</button>
+        <form id="chatbox" @submit.prevent="sendMessage">
+            <input ref="message" v-model="message" autocomplete="off" placeholder="Type a message" />
+            <button class="btn btn-primary" type="submit">Send</button>
         </form>
     </div>
 </template>
@@ -28,11 +30,21 @@ export default {
         sendMessage (e) {
             e.preventDefault();
             
-            this.socket.emit('chat message', this.message);
+            this.socket.emit('chat message', {
+                message: this.message,
+                user: this.user,
+                });
             this.message = '';
+
+            this.$refs.message.$el.focus();
+        },
+        getname() {
+            this.user = prompt('What is your username?');
         }
     },
     mounted () {
+        this.getname();
+
         this.socket.on('chat message', (msg) => {
             this.messages.push(msg);
         });
@@ -41,13 +53,44 @@ export default {
 
 </script>
 
-<style lang="css" scoped>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font: 13px Helvetica, Arial; }
-    form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-    form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
-    form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-    #messages { list-style-type: none; margin: 0; padding: 0; }
-    #messages li { padding: 5px 10px; }
-    #messages li:nth-child(odd) { background: #eee; }
+<style lang="scss" scoped>
+
+    #chatbox { 
+        position: absolute; 
+        bottom: 0; 
+        left: 0;
+        
+        input {
+            border: 0; 
+            padding: 10px;
+            width:150px;
+            display:inline-block;
+        }
+
+        button {
+            width: 100px;
+            display:inline-block;
+        }
+    }
+
+    #messages { 
+        list-style-type: none; 
+        margin: 0; 
+
+        li.messageContainer { 
+            div {
+                display:inline-block;
+            }
+            div.user {
+                width:100px;
+            }
+            div.messageContent {
+                width: 150px;
+                word-wrap:break-word;
+            }
+        }
+        li.messageContainer:nth-child(odd) {
+            background: #eee;
+        }
+    }
 </style>
