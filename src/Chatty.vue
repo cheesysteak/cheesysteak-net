@@ -1,36 +1,41 @@
 <template>
     <div>
         <ul id="messages">
-            <li v-for="message in messages" :key="message.id"></li>
+            <li v-for="(msg, index) in messages" :key="index">
+                {{ msg }}
+            </li>
         </ul>
-        <form action="">
-            <input id="m" autocomplete="off" /><button>Send</button>
+        <form @submit.prevent="sendMessage">
+            <input v-model="message" autocomplete="off" /><button type="submit">Send</button>
         </form>
     </div>
 </template>
 
 <script>
-import $ from 'jquery';
 import io from 'socket.io-client';
-
-$(function() {
-    var socket = io();
-    $('form').submit(function(){
-        socket.emit('chat message', $('#m').val());
-        $('#m').val('');
-        return false;
-    });
-    socket.on('chat message', function(msg){
-        $('#messages').append($('<li>').text(msg));
-    });
-});
 
 export default {
     name: 'Chatty',
-    data: () => {
+    data() {
         return {
-            messages: []
+            messages: [],
+            socket: io(),
+            message: '',
+            user: ''
         }
+    },
+    methods: {
+        sendMessage (e) {
+            e.preventDefault();
+            
+            this.socket.emit('chat message', this.message);
+            this.message = '';
+        }
+    },
+    mounted () {
+        this.socket.on('chat message', (msg) => {
+            this.messages.push(msg);
+        });
     }
 }
 
