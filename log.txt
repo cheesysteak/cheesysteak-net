@@ -1,45 +1,85 @@
-Fri Aug 10 2018 17:17:29 GMT-0500 (Central Daylight Time): listening on *:3000.
-Fri Aug 10 2018 17:17:29 GMT-0500 (Central Daylight Time): new connection established: LMw3-utN2PEGJ-ccAAAA
-Fri Aug 10 2018 17:17:29 GMT-0500 (Central Daylight Time): new connection established: fXqafWn6ZksZCDtXAAAB
-Fri Aug 10 2018 17:17:29 GMT-0500 (Central Daylight Time): LMw3-utN2PEGJ-ccAAAA => connection terminated
-Fri Aug 10 2018 17:17:30 GMT-0500 (Central Daylight Time): new connection established: a0pBW5uj2Yp4Acg3AAAC
-Fri Aug 10 2018 17:17:30 GMT-0500 (Central Daylight Time): a0pBW5uj2Yp4Acg3AAAC => requesting games
-Fri Aug 10 2018 17:17:32 GMT-0500 (Central Daylight Time): a0pBW5uj2Yp4Acg3AAAC => create game. id: d3a55841-7d6e-4a37-9a31-68ea7fc8b333. name: asdf.
-Fri Aug 10 2018 17:17:33 GMT-0500 (Central Daylight Time): a0pBW5uj2Yp4Acg3AAAC => join game. id: d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:17:35 GMT-0500 (Central Daylight Time): a0pBW5uj2Yp4Acg3AAAC => connection terminated
-Fri Aug 10 2018 17:17:35 GMT-0500 (Central Daylight Time): a0pBW5uj2Yp4Acg3AAAC => removed from game d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:17:36 GMT-0500 (Central Daylight Time): new connection established: PbFHHVUgk3LMFVXZAAAD
-Fri Aug 10 2018 17:17:36 GMT-0500 (Central Daylight Time): PbFHHVUgk3LMFVXZAAAD => requesting games
-Fri Aug 10 2018 17:17:54 GMT-0500 (Central Daylight Time): new connection established: i9EHTmF5tY_fmtrVAAAE
-Fri Aug 10 2018 17:17:54 GMT-0500 (Central Daylight Time): i9EHTmF5tY_fmtrVAAAE => requesting games
-Fri Aug 10 2018 17:17:55 GMT-0500 (Central Daylight Time): i9EHTmF5tY_fmtrVAAAE => join game. id: d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:17:59 GMT-0500 (Central Daylight Time): PbFHHVUgk3LMFVXZAAAD => join game. id: d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:18:04 GMT-0500 (Central Daylight Time): i9EHTmF5tY_fmtrVAAAE => create game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc. name: fdas.
-Fri Aug 10 2018 17:18:06 GMT-0500 (Central Daylight Time): i9EHTmF5tY_fmtrVAAAE => connection terminated
-Fri Aug 10 2018 17:18:06 GMT-0500 (Central Daylight Time): i9EHTmF5tY_fmtrVAAAE => removed from game d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:18:06 GMT-0500 (Central Daylight Time): new connection established: dPzd-fawaKgG7Bg6AAAF
-Fri Aug 10 2018 17:18:06 GMT-0500 (Central Daylight Time): dPzd-fawaKgG7Bg6AAAF => requesting games
-Fri Aug 10 2018 17:18:07 GMT-0500 (Central Daylight Time): dPzd-fawaKgG7Bg6AAAF => join game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:08 GMT-0500 (Central Daylight Time): dPzd-fawaKgG7Bg6AAAF => connection terminated
-Fri Aug 10 2018 17:18:08 GMT-0500 (Central Daylight Time): dPzd-fawaKgG7Bg6AAAF => removed from game bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:08 GMT-0500 (Central Daylight Time): new connection established: B7B855-kn85wgUYsAAAG
-Fri Aug 10 2018 17:18:08 GMT-0500 (Central Daylight Time): B7B855-kn85wgUYsAAAG => requesting games
-Fri Aug 10 2018 17:18:10 GMT-0500 (Central Daylight Time): B7B855-kn85wgUYsAAAG => join game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:10 GMT-0500 (Central Daylight Time): B7B855-kn85wgUYsAAAG => connection terminated
-Fri Aug 10 2018 17:18:10 GMT-0500 (Central Daylight Time): B7B855-kn85wgUYsAAAG => removed from game bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:10 GMT-0500 (Central Daylight Time): new connection established: ROC_V9fcMycynmrVAAAH
-Fri Aug 10 2018 17:18:10 GMT-0500 (Central Daylight Time): ROC_V9fcMycynmrVAAAH => requesting games
-Fri Aug 10 2018 17:18:11 GMT-0500 (Central Daylight Time): ROC_V9fcMycynmrVAAAH => join game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:11 GMT-0500 (Central Daylight Time): ROC_V9fcMycynmrVAAAH => connection terminated
-Fri Aug 10 2018 17:18:11 GMT-0500 (Central Daylight Time): ROC_V9fcMycynmrVAAAH => removed from game bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:12 GMT-0500 (Central Daylight Time): new connection established: 2Mxh1PIQRQy2KwdtAAAI
-Fri Aug 10 2018 17:18:12 GMT-0500 (Central Daylight Time): 2Mxh1PIQRQy2KwdtAAAI => requesting games
-Fri Aug 10 2018 17:18:15 GMT-0500 (Central Daylight Time): PbFHHVUgk3LMFVXZAAAD => join game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:17 GMT-0500 (Central Daylight Time): 2Mxh1PIQRQy2KwdtAAAI => join game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:18:18 GMT-0500 (Central Daylight Time): 2Mxh1PIQRQy2KwdtAAAI => join game. id: d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:19:29 GMT-0500 (Central Daylight Time): PbFHHVUgk3LMFVXZAAAD => connection terminated
-Fri Aug 10 2018 17:19:29 GMT-0500 (Central Daylight Time): PbFHHVUgk3LMFVXZAAAD => removed from game d3a55841-7d6e-4a37-9a31-68ea7fc8b333
-Fri Aug 10 2018 17:19:29 GMT-0500 (Central Daylight Time): PbFHHVUgk3LMFVXZAAAD => removed from game bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
-Fri Aug 10 2018 17:19:30 GMT-0500 (Central Daylight Time): new connection established: ChQXXKbCFcqfiFVYAAAJ
-Fri Aug 10 2018 17:19:30 GMT-0500 (Central Daylight Time): ChQXXKbCFcqfiFVYAAAJ => requesting games
-Fri Aug 10 2018 17:19:32 GMT-0500 (Central Daylight Time): ChQXXKbCFcqfiFVYAAAJ => join game. id: bc6c9eb8-eaa7-4d6e-7394-060d7362ebfc
+Mon Aug 13 2018 16:41:52 GMT-0500 (Central Daylight Time): listening on *:3000.
+Mon Aug 13 2018 16:44:52 GMT-0500 (Central Daylight Time): new connection established: AIB3Y3R9Oc5TimluAAAA
+Mon Aug 13 2018 16:44:52 GMT-0500 (Central Daylight Time): AIB3Y3R9Oc5TimluAAAA => requesting games
+Mon Aug 13 2018 16:44:54 GMT-0500 (Central Daylight Time): new connection established: g-2zDFUqQ7rkO4eXAAAB
+Mon Aug 13 2018 16:44:58 GMT-0500 (Central Daylight Time): g-2zDFUqQ7rkO4eXAAAB => asdf sent message: fdas.
+Mon Aug 13 2018 16:45:00 GMT-0500 (Central Daylight Time): new connection established: Ct892XZ7ZLPwZXeNAAAC
+Mon Aug 13 2018 16:45:00 GMT-0500 (Central Daylight Time): Ct892XZ7ZLPwZXeNAAAC => requesting games
+Mon Aug 13 2018 16:45:00 GMT-0500 (Central Daylight Time): new connection established: Og-UeSh-Z4kK4a_zAAAD
+Mon Aug 13 2018 16:45:06 GMT-0500 (Central Daylight Time): Og-UeSh-Z4kK4a_zAAAD => fdsasadf sent message: sadsasdf.
+Mon Aug 13 2018 16:49:29 GMT-0500 (Central Daylight Time): Og-UeSh-Z4kK4a_zAAAD => connection terminated
+Mon Aug 13 2018 16:49:29 GMT-0500 (Central Daylight Time): AIB3Y3R9Oc5TimluAAAA => connection terminated
+Mon Aug 13 2018 16:49:29 GMT-0500 (Central Daylight Time): Ct892XZ7ZLPwZXeNAAAC => connection terminated
+Mon Aug 13 2018 16:49:29 GMT-0500 (Central Daylight Time): g-2zDFUqQ7rkO4eXAAAB => connection terminated
+Mon Aug 13 2018 16:49:29 GMT-0500 (Central Daylight Time): new connection established: C5Y33kfMo9GdJyTlAAAE
+Mon Aug 13 2018 16:49:33 GMT-0500 (Central Daylight Time): new connection established: hmwm6CcpRWS5qnBOAAAF
+Mon Aug 13 2018 16:49:33 GMT-0500 (Central Daylight Time): hmwm6CcpRWS5qnBOAAAF => requesting games
+Mon Aug 13 2018 16:49:35 GMT-0500 (Central Daylight Time): hmwm6CcpRWS5qnBOAAAF => connection terminated
+Mon Aug 13 2018 16:49:35 GMT-0500 (Central Daylight Time): C5Y33kfMo9GdJyTlAAAE => connection terminated
+Mon Aug 13 2018 16:49:35 GMT-0500 (Central Daylight Time): new connection established: XyzhCiWS3Q-lUwtcAAAG
+Mon Aug 13 2018 16:49:35 GMT-0500 (Central Daylight Time): XyzhCiWS3Q-lUwtcAAAG => requesting games
+Mon Aug 13 2018 16:49:36 GMT-0500 (Central Daylight Time): new connection established: sQrk4KAHSXhD81zKAAAH
+Mon Aug 13 2018 16:49:47 GMT-0500 (Central Daylight Time): XyzhCiWS3Q-lUwtcAAAG => connection terminated
+Mon Aug 13 2018 16:49:47 GMT-0500 (Central Daylight Time): sQrk4KAHSXhD81zKAAAH => connection terminated
+Mon Aug 13 2018 16:49:47 GMT-0500 (Central Daylight Time): new connection established: FD3nBLWENeEqpIkTAAAI
+Mon Aug 13 2018 16:49:51 GMT-0500 (Central Daylight Time): new connection established: 8eaEmNVJnJT8vnbnAAAJ
+Mon Aug 13 2018 16:49:51 GMT-0500 (Central Daylight Time): 8eaEmNVJnJT8vnbnAAAJ => requesting games
+Mon Aug 13 2018 16:49:53 GMT-0500 (Central Daylight Time): new connection established: Sq6M4d5iQrJE2QV_AAAK
+Mon Aug 13 2018 16:49:56 GMT-0500 (Central Daylight Time): new connection established: jYWjjH0MTNRa3oFSAAAL
+Mon Aug 13 2018 16:49:56 GMT-0500 (Central Daylight Time): jYWjjH0MTNRa3oFSAAAL => requesting games
+Mon Aug 13 2018 16:50:05 GMT-0500 (Central Daylight Time): new connection established: NXMbLNrlvASYXypfAAAM
+Mon Aug 13 2018 16:50:12 GMT-0500 (Central Daylight Time): new connection established: akbOc9CRoWYsOWCiAAAN
+Mon Aug 13 2018 16:50:12 GMT-0500 (Central Daylight Time): akbOc9CRoWYsOWCiAAAN => requesting games
+Mon Aug 13 2018 16:50:20 GMT-0500 (Central Daylight Time): FD3nBLWENeEqpIkTAAAI => connection terminated
+Mon Aug 13 2018 16:50:20 GMT-0500 (Central Daylight Time): new connection established: bVw0NipEPSInHM90AAAO
+Mon Aug 13 2018 16:50:21 GMT-0500 (Central Daylight Time): 8eaEmNVJnJT8vnbnAAAJ => connection terminated
+Mon Aug 13 2018 16:50:22 GMT-0500 (Central Daylight Time): new connection established: 1qBSB5uTlSa35qgvAAAP
+Mon Aug 13 2018 16:52:05 GMT-0500 (Central Daylight Time): bVw0NipEPSInHM90AAAO => connection terminated
+Mon Aug 13 2018 16:52:05 GMT-0500 (Central Daylight Time): jYWjjH0MTNRa3oFSAAAL => connection terminated
+Mon Aug 13 2018 16:52:05 GMT-0500 (Central Daylight Time): NXMbLNrlvASYXypfAAAM => connection terminated
+Mon Aug 13 2018 16:52:05 GMT-0500 (Central Daylight Time): Sq6M4d5iQrJE2QV_AAAK => connection terminated
+Mon Aug 13 2018 16:52:05 GMT-0500 (Central Daylight Time): akbOc9CRoWYsOWCiAAAN => connection terminated
+Mon Aug 13 2018 16:52:05 GMT-0500 (Central Daylight Time): 1qBSB5uTlSa35qgvAAAP => connection terminated
+Mon Aug 13 2018 16:52:08 GMT-0500 (Central Daylight Time): new connection established: QB7w28i-u9itr2DyAAAQ
+Mon Aug 13 2018 16:52:08 GMT-0500 (Central Daylight Time): QB7w28i-u9itr2DyAAAQ => requesting games
+Mon Aug 13 2018 16:52:11 GMT-0500 (Central Daylight Time): new connection established: V40BFfG3ARdrw2b_AAAR
+Mon Aug 13 2018 16:53:23 GMT-0500 (Central Daylight Time): V40BFfG3ARdrw2b_AAAR => connection terminated
+Mon Aug 13 2018 16:53:23 GMT-0500 (Central Daylight Time): QB7w28i-u9itr2DyAAAQ => connection terminated
+Mon Aug 13 2018 16:53:24 GMT-0500 (Central Daylight Time): new connection established: SUzaafppO9S98MfdAAAS
+Mon Aug 13 2018 16:53:28 GMT-0500 (Central Daylight Time): SUzaafppO9S98MfdAAAS => connection terminated
+Mon Aug 13 2018 16:53:29 GMT-0500 (Central Daylight Time): new connection established: pbrIfjoopASgcQGYAAAT
+Mon Aug 13 2018 16:53:30 GMT-0500 (Central Daylight Time): pbrIfjoopASgcQGYAAAT => connection terminated
+Mon Aug 13 2018 16:53:30 GMT-0500 (Central Daylight Time): new connection established: m6kto1JyS6iL4s2vAAAU
+Mon Aug 13 2018 16:53:32 GMT-0500 (Central Daylight Time): m6kto1JyS6iL4s2vAAAU => connection terminated
+Mon Aug 13 2018 16:53:33 GMT-0500 (Central Daylight Time): new connection established: Qs4F_tJ8UZ1E-c79AAAV
+Mon Aug 13 2018 16:53:34 GMT-0500 (Central Daylight Time): new connection established: ZFyR-x3K2BGbYBdnAAAW
+Mon Aug 13 2018 16:53:35 GMT-0500 (Central Daylight Time): new connection established: LSSKaRWAexRcEIV8AAAX
+Mon Aug 13 2018 16:53:35 GMT-0500 (Central Daylight Time): LSSKaRWAexRcEIV8AAAX => requesting games
+Mon Aug 13 2018 16:53:36 GMT-0500 (Central Daylight Time): new connection established: M3XkimK84Rq_2-MsAAAY
+Mon Aug 13 2018 16:53:36 GMT-0500 (Central Daylight Time): LSSKaRWAexRcEIV8AAAX => connection terminated
+Mon Aug 13 2018 16:53:39 GMT-0500 (Central Daylight Time): new connection established: UM79paKA55uoMHG5AAAZ
+Mon Aug 13 2018 16:53:39 GMT-0500 (Central Daylight Time): UM79paKA55uoMHG5AAAZ => requesting games
+Mon Aug 13 2018 16:53:40 GMT-0500 (Central Daylight Time): new connection established: 0wmsIFH-xmXV2FWtAAAa
+Mon Aug 13 2018 16:53:40 GMT-0500 (Central Daylight Time): UM79paKA55uoMHG5AAAZ => connection terminated
+Mon Aug 13 2018 16:53:41 GMT-0500 (Central Daylight Time): new connection established: h71N4Hwia76ODl7oAAAb
+Mon Aug 13 2018 16:53:41 GMT-0500 (Central Daylight Time): h71N4Hwia76ODl7oAAAb => requesting games
+Mon Aug 13 2018 16:53:44 GMT-0500 (Central Daylight Time): h71N4Hwia76ODl7oAAAb => create game. id: 4cfca4fe-a26d-46a2-cbf6-3ceeaa81b9d4. name: asdf.
+Mon Aug 13 2018 16:53:45 GMT-0500 (Central Daylight Time): h71N4Hwia76ODl7oAAAb => join game. id: 4cfca4fe-a26d-46a2-cbf6-3ceeaa81b9d4
+Mon Aug 13 2018 16:53:47 GMT-0500 (Central Daylight Time): new connection established: vWUIWmvVQgQ7fZjZAAAc
+Mon Aug 13 2018 16:53:47 GMT-0500 (Central Daylight Time): h71N4Hwia76ODl7oAAAb => removed from game 4cfca4fe-a26d-46a2-cbf6-3ceeaa81b9d4
+Mon Aug 13 2018 16:53:47 GMT-0500 (Central Daylight Time): h71N4Hwia76ODl7oAAAb => connection terminated
+Mon Aug 13 2018 16:53:47 GMT-0500 (Central Daylight Time): new connection established: 1VULCKi8PaYa-xhaAAAd
+Mon Aug 13 2018 16:53:47 GMT-0500 (Central Daylight Time): 1VULCKi8PaYa-xhaAAAd => requesting games
+Mon Aug 13 2018 16:53:48 GMT-0500 (Central Daylight Time): 1VULCKi8PaYa-xhaAAAd => join game. id: 4cfca4fe-a26d-46a2-cbf6-3ceeaa81b9d4
+Mon Aug 13 2018 16:54:03 GMT-0500 (Central Daylight Time): Qs4F_tJ8UZ1E-c79AAAV => connection terminated
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): ZFyR-x3K2BGbYBdnAAAW => connection terminated
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): 0wmsIFH-xmXV2FWtAAAa => connection terminated
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): vWUIWmvVQgQ7fZjZAAAc => connection terminated
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): M3XkimK84Rq_2-MsAAAY => connection terminated
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): 1VULCKi8PaYa-xhaAAAd => removed from game 4cfca4fe-a26d-46a2-cbf6-3ceeaa81b9d4
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): 1VULCKi8PaYa-xhaAAAd => connection terminated
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): new connection established: mRj4csbjDldsMP3NAAAe
+Mon Aug 13 2018 16:55:02 GMT-0500 (Central Daylight Time): mRj4csbjDldsMP3NAAAe => requesting games
+Mon Aug 13 2018 16:55:04 GMT-0500 (Central Daylight Time): new connection established: 5ccZxGbyaOR0yUpRAAAf
+Mon Aug 13 2018 16:55:07 GMT-0500 (Central Daylight Time): mRj4csbjDldsMP3NAAAe => join game. id: 4cfca4fe-a26d-46a2-cbf6-3ceeaa81b9d4
+Mon Aug 13 2018 16:55:10 GMT-0500 (Central Daylight Time): 5ccZxGbyaOR0yUpRAAAf => user sent message: asdfasdf.

@@ -34,7 +34,6 @@
 
 <script>
 import io from 'socket.io-client';
-
 export default {
     name: 'GamePicker',
     data() {
@@ -74,6 +73,11 @@ export default {
             this.games = gamesList;
         });
 
+        console.log('gamepicker mounted');  
+    },
+    beforeDestroy() {
+        this.socket.disconnect();
+        console.log('gamepicker beforeDestroy');
     }
 }
 

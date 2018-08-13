@@ -39,7 +39,7 @@ export default {
             this.$refs.message.$el.focus();
         },
         getname() {
-            this.user = prompt('What is your username?');
+            this.user = 'user';
         }
     },
     mounted () {

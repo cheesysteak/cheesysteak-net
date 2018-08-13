@@ -62,6 +62,13 @@ module.exports = {
     },
     plugins: [
       new VueLoaderPlugin(),
-      new HtmlWebpackPlugin()
-    ]
+      new HtmlWebpackPlugin({
+        template: './src/index.html'
+      })
+    ],
+    resolve: {
+      alias: {
+        vue: 'vue/dist/vue.js'
+      }
+    }
   };
