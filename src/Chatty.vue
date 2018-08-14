@@ -1,15 +1,30 @@
 <template>
     <div id="chatty">
-        <ul id="messages">
-            <li class="messageContainer" v-for="(msg, index) in messages" :key="index">
-                <div class="user">{{ msg.user }}</div>
-                <div class="messageContent">{{ msg.message }}</div>
-            </li>
-        </ul>
-        <form id="chatbox" @submit.prevent="sendMessage">
-            <input ref="message" v-model="message" autocomplete="off" placeholder="Type a message" />
-            <button class="btn btn-primary" type="submit">Send</button>
-        </form>
+        <div class="row messages">
+            <div v-for="(msg, idx) in messages" :key="idx" class="message">
+                <div class="user">
+                    {{msg.user}}
+                </div>
+                <div class="messageContent">
+                    {{msg.message}}
+                </div>
+            </div>
+            <table class="table">
+                <thead><th></th><th></th></thead>
+                <tbody>
+                    <tr v-for="(msg, idx) in messages" :key="idx">
+                        <td>{{msg.user}}</td>
+                        <td>{{msg.message}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <form id="chatbox" @submit.prevent="sendMessage">
+                <input ref="message" v-model="message" autocomplete="off" placeholder="Type a message" />
+                <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+        </div>
     </div>
 </template>
 
@@ -74,23 +89,18 @@ export default {
     }
 
     #messages { 
-        list-style-type: none; 
-        margin: 0; 
+        .messageContainer {
+            display:grid;
+            grid-template-columns: repeat(12, 1fr);
 
-        li.messageContainer { 
-            div {
-                display:inline-block;
+            .user {
+                grid-column:span 3;
             }
-            div.user {
-                width:100px;
-            }
-            div.messageContent {
-                width: 150px;
-                word-wrap:break-word;
+
+            .messageContent {
+                grid-column:span 9;
             }
         }
-        li.messageContainer:nth-child(odd) {
-            background: #eee;
-        }
+
     }
 </style>
