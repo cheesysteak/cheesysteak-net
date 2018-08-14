@@ -9,7 +9,7 @@ var socketSetup = require('./SocketSetup');
 
 var rootDir = './dist';
 
-var port = 3000;
+var port = 80;
 
 
 app.get('/', function(req, res) {
