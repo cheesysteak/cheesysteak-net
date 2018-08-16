@@ -12,7 +12,7 @@ var games = [];
 var setup = {
     setupOnitama: (socket, io) => {
         socket.on('game list', (callback) => {    
-            logger.log(`${socket.id} => requesting games`);
+            logger.logSocketAction(socket, `requesting games`);
 
             callback(games);
         });
@@ -26,13 +26,13 @@ var setup = {
             
             games.push(game);
 
-            logger.log(`${socket.id} => create game. id: ${game.id}. name: ${game.name}.`)
+            logger.logSocketAction(socket, `create game. id: ${game.id}. name: ${game.name}.`)
 
             io.emit('game list updated', games);
         });
 
         socket.on('game join', (id) => {
-            logger.log(`${socket.id} => join game. id: ${id}`)
+            logger.logSocketAction(`join game. id: ${id}`)
 
             var game = games.filter(g => g.id === id)[0];
             
@@ -50,7 +50,7 @@ var setup = {
             for(var idx = 0; idx < inGames.length; idx++) {
                 inGames[idx].players = inGames[idx].players.filter(p => p !== socket.id);
 
-                logger.log(`${socket.id} => removed from game ${inGames[idx].id}`);
+                logger.logSocketAction(socket, `removed from game ${inGames[idx].id}`);
             }
     
             io.emit('game list updated', games);

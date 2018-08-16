@@ -4,19 +4,20 @@ var logFileName = 'log.txt';
 
 fs.writeFile(logFileName, '', (err) => {
     if(err) { console.log(err); }
-
-    console.log(`${logFileName} created.`);
 });
 
 var logger = {
     log: (message) => {
         console.log(message);
 
-        fs.appendFile(logFileName, new Date() + ': ' + message + '\n', (err) => {
+        fs.appendFile(logFileName, (new Date()).toLocaleDateString('en-US') + ': ' + message + '\n', (err) => {
             if(err) {
                 console.log(err);
             }
         });
+    },
+    logSocketAction: function(socket, message) {
+        this.log(`${socket.handshake.address} (${socket.id}) => ${message}`);
     }
 };
 
