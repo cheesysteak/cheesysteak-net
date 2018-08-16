@@ -1,20 +1,108 @@
-Tue Aug 14 2018 15:50:29 GMT-0500 (Central Daylight Time): listening on *:3000.
-Tue Aug 14 2018 15:50:38 GMT-0500 (Central Daylight Time): new connection established: 6aj09237lNse6JijAAAA
-Tue Aug 14 2018 15:50:39 GMT-0500 (Central Daylight Time): new connection established: c0QqU9tZFo9rZFoyAAAB
-Tue Aug 14 2018 15:50:39 GMT-0500 (Central Daylight Time): c0QqU9tZFo9rZFoyAAAB => requesting games
-Tue Aug 14 2018 15:50:49 GMT-0500 (Central Daylight Time): 6aj09237lNse6JijAAAA => user sent message: asdf.
-Tue Aug 14 2018 15:50:56 GMT-0500 (Central Daylight Time): 6aj09237lNse6JijAAAA => user sent message: fdaasdf.
-Tue Aug 14 2018 15:51:00 GMT-0500 (Central Daylight Time): 6aj09237lNse6JijAAAA => user sent message: asdffdaasdfasdf.
-Tue Aug 14 2018 15:52:40 GMT-0500 (Central Daylight Time): c0QqU9tZFo9rZFoyAAAB => connection terminated
-Tue Aug 14 2018 15:52:40 GMT-0500 (Central Daylight Time): 6aj09237lNse6JijAAAA => connection terminated
-Tue Aug 14 2018 15:52:41 GMT-0500 (Central Daylight Time): new connection established: u_W2QfhY_X3B8jcPAAAC
-Tue Aug 14 2018 15:52:42 GMT-0500 (Central Daylight Time): u_W2QfhY_X3B8jcPAAAC => connection terminated
-Tue Aug 14 2018 15:52:42 GMT-0500 (Central Daylight Time): new connection established: lk32HcuzsjdxkCSrAAAD
-Tue Aug 14 2018 15:53:19 GMT-0500 (Central Daylight Time): lk32HcuzsjdxkCSrAAAD => connection terminated
-Tue Aug 14 2018 15:53:19 GMT-0500 (Central Daylight Time): new connection established: mUXNeXqc9JlxUfOtAAAE
-Tue Aug 14 2018 15:53:21 GMT-0500 (Central Daylight Time): mUXNeXqc9JlxUfOtAAAE => connection terminated
-Tue Aug 14 2018 15:53:21 GMT-0500 (Central Daylight Time): new connection established: i52jVNhfKq2wYDAGAAAF
-Tue Aug 14 2018 15:53:47 GMT-0500 (Central Daylight Time): i52jVNhfKq2wYDAGAAAF => connection terminated
-Tue Aug 14 2018 15:53:48 GMT-0500 (Central Daylight Time): new connection established: D7rQQFgDH5fGzGCdAAAG
-Tue Aug 14 2018 15:54:11 GMT-0500 (Central Daylight Time): new connection established: t3iVCyqfaPwlz3LPAAAH
-Tue Aug 14 2018 15:54:11 GMT-0500 (Central Daylight Time): t3iVCyqfaPwlz3LPAAAH => requesting games
+Thu Aug 16 2018 15:47:35 GMT-0500 (Central Daylight Time): listening on *:3000.
+Thu Aug 16 2018 15:47:43 GMT-0500 (Central Daylight Time): new connection established: oxHv6S2dixKASdvEAAAA
+Thu Aug 16 2018 15:47:44 GMT-0500 (Central Daylight Time): oxHv6S2dixKASdvEAAAA => user sent message: asdf.
+Thu Aug 16 2018 15:50:35 GMT-0500 (Central Daylight Time): oxHv6S2dixKASdvEAAAA => connection terminated
+Thu Aug 16 2018 15:50:35 GMT-0500 (Central Daylight Time): new connection established: xg1WB2VaS0uSQw1EAAAB
+Thu Aug 16 2018 15:50:37 GMT-0500 (Central Daylight Time): xg1WB2VaS0uSQw1EAAAB => user sent message: asdf.
+Thu Aug 16 2018 15:51:41 GMT-0500 (Central Daylight Time): xg1WB2VaS0uSQw1EAAAB => connection terminated
+Thu Aug 16 2018 15:51:42 GMT-0500 (Central Daylight Time): new connection established: 3t2vJWju-xLH605tAAAC
+Thu Aug 16 2018 15:51:43 GMT-0500 (Central Daylight Time): 3t2vJWju-xLH605tAAAC => user sent message: asdf.
+Thu Aug 16 2018 15:52:40 GMT-0500 (Central Daylight Time): 3t2vJWju-xLH605tAAAC => connection terminated
+Thu Aug 16 2018 15:52:41 GMT-0500 (Central Daylight Time): new connection established: PLAWdyew9CvVkTvKAAAD
+Thu Aug 16 2018 15:52:42 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: asdf.
+Thu Aug 16 2018 15:52:44 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: asdfdaasdf.
+Thu Aug 16 2018 15:52:45 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: .
+Thu Aug 16 2018 15:52:46 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: .
+Thu Aug 16 2018 15:52:46 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: .
+Thu Aug 16 2018 15:52:46 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: .
+Thu Aug 16 2018 15:52:46 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: .
+Thu Aug 16 2018 15:52:48 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: asdffdsaasdf.
+Thu Aug 16 2018 15:52:51 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => user sent message: sadfasdfasfdasdfasdfas.
+Thu Aug 16 2018 15:53:43 GMT-0500 (Central Daylight Time): PLAWdyew9CvVkTvKAAAD => connection terminated
+Thu Aug 16 2018 15:53:43 GMT-0500 (Central Daylight Time): new connection established: MaL05F64itOf1eWxAAAE
+Thu Aug 16 2018 15:53:45 GMT-0500 (Central Daylight Time): MaL05F64itOf1eWxAAAE => user sent message: asdf.
+Thu Aug 16 2018 15:53:47 GMT-0500 (Central Daylight Time): MaL05F64itOf1eWxAAAE => user sent message: asdffdsa.
+Thu Aug 16 2018 15:54:17 GMT-0500 (Central Daylight Time): MaL05F64itOf1eWxAAAE => connection terminated
+Thu Aug 16 2018 15:54:18 GMT-0500 (Central Daylight Time): new connection established: bSkWM0gpXZHo7X9lAAAF
+Thu Aug 16 2018 15:54:19 GMT-0500 (Central Daylight Time): bSkWM0gpXZHo7X9lAAAF => user sent message: asdf.
+Thu Aug 16 2018 15:54:20 GMT-0500 (Central Daylight Time): bSkWM0gpXZHo7X9lAAAF => user sent message: asdf.
+Thu Aug 16 2018 15:54:21 GMT-0500 (Central Daylight Time): bSkWM0gpXZHo7X9lAAAF => user sent message: asdf.
+Thu Aug 16 2018 15:55:23 GMT-0500 (Central Daylight Time): bSkWM0gpXZHo7X9lAAAF => connection terminated
+Thu Aug 16 2018 15:55:24 GMT-0500 (Central Daylight Time): new connection established: MjpQCUu3giVwSGJqAAAG
+Thu Aug 16 2018 15:55:25 GMT-0500 (Central Daylight Time): MjpQCUu3giVwSGJqAAAG => user sent message: asdf.
+Thu Aug 16 2018 15:55:27 GMT-0500 (Central Daylight Time): MjpQCUu3giVwSGJqAAAG => user sent message: asdffdsa.
+Thu Aug 16 2018 15:55:27 GMT-0500 (Central Daylight Time): MjpQCUu3giVwSGJqAAAG => connection terminated
+Thu Aug 16 2018 15:55:28 GMT-0500 (Central Daylight Time): new connection established: BvMQ7vIDDEWQw9rtAAAH
+Thu Aug 16 2018 15:55:29 GMT-0500 (Central Daylight Time): BvMQ7vIDDEWQw9rtAAAH => user sent message: asdf.
+Thu Aug 16 2018 15:55:31 GMT-0500 (Central Daylight Time): BvMQ7vIDDEWQw9rtAAAH => user sent message: asdf.
+Thu Aug 16 2018 15:57:01 GMT-0500 (Central Daylight Time): BvMQ7vIDDEWQw9rtAAAH => connection terminated
+Thu Aug 16 2018 15:57:02 GMT-0500 (Central Daylight Time): new connection established: SOhwRR6twNwYrI-9AAAI
+Thu Aug 16 2018 15:57:03 GMT-0500 (Central Daylight Time): SOhwRR6twNwYrI-9AAAI => user sent message: asdf.
+Thu Aug 16 2018 15:57:04 GMT-0500 (Central Daylight Time): SOhwRR6twNwYrI-9AAAI => user sent message: asdf.
+Thu Aug 16 2018 15:57:05 GMT-0500 (Central Daylight Time): SOhwRR6twNwYrI-9AAAI => connection terminated
+Thu Aug 16 2018 15:57:05 GMT-0500 (Central Daylight Time): new connection established: s3b6bGup0qcE44q0AAAJ
+Thu Aug 16 2018 15:57:06 GMT-0500 (Central Daylight Time): s3b6bGup0qcE44q0AAAJ => user sent message: asdf.
+Thu Aug 16 2018 15:57:08 GMT-0500 (Central Daylight Time): s3b6bGup0qcE44q0AAAJ => user sent message: .
+Thu Aug 16 2018 15:57:08 GMT-0500 (Central Daylight Time): s3b6bGup0qcE44q0AAAJ => user sent message: .
+Thu Aug 16 2018 15:57:09 GMT-0500 (Central Daylight Time): s3b6bGup0qcE44q0AAAJ => user sent message: .
+Thu Aug 16 2018 15:57:10 GMT-0500 (Central Daylight Time): s3b6bGup0qcE44q0AAAJ => user sent message: .
+Thu Aug 16 2018 15:58:05 GMT-0500 (Central Daylight Time): s3b6bGup0qcE44q0AAAJ => connection terminated
+Thu Aug 16 2018 15:58:05 GMT-0500 (Central Daylight Time): new connection established: zyKI9hFJURIJ7fZpAAAK
+Thu Aug 16 2018 15:58:06 GMT-0500 (Central Daylight Time): zyKI9hFJURIJ7fZpAAAK => user sent message: asdf.
+Thu Aug 16 2018 15:59:26 GMT-0500 (Central Daylight Time): zyKI9hFJURIJ7fZpAAAK => connection terminated
+Thu Aug 16 2018 15:59:26 GMT-0500 (Central Daylight Time): new connection established: 9zyotqun_tXzeQoyAAAL
+Thu Aug 16 2018 15:59:28 GMT-0500 (Central Daylight Time): 9zyotqun_tXzeQoyAAAL => user sent message: asdf.
+Thu Aug 16 2018 16:00:42 GMT-0500 (Central Daylight Time): 9zyotqun_tXzeQoyAAAL => connection terminated
+Thu Aug 16 2018 16:00:42 GMT-0500 (Central Daylight Time): new connection established: Bx23ZBzuJmOMjv8EAAAM
+Thu Aug 16 2018 16:00:44 GMT-0500 (Central Daylight Time): Bx23ZBzuJmOMjv8EAAAM => user sent message: .
+Thu Aug 16 2018 16:00:45 GMT-0500 (Central Daylight Time): Bx23ZBzuJmOMjv8EAAAM => user sent message: .
+Thu Aug 16 2018 16:00:47 GMT-0500 (Central Daylight Time): Bx23ZBzuJmOMjv8EAAAM => user sent message: asdf.
+Thu Aug 16 2018 16:00:47 GMT-0500 (Central Daylight Time): Bx23ZBzuJmOMjv8EAAAM => connection terminated
+Thu Aug 16 2018 16:00:48 GMT-0500 (Central Daylight Time): new connection established: dT4vEe7qjH9iuTY1AAAN
+Thu Aug 16 2018 16:01:54 GMT-0500 (Central Daylight Time): dT4vEe7qjH9iuTY1AAAN => connection terminated
+Thu Aug 16 2018 16:01:54 GMT-0500 (Central Daylight Time): new connection established: 8ez_LK_nM0pOWrZ4AAAO
+Thu Aug 16 2018 16:01:56 GMT-0500 (Central Daylight Time): 8ez_LK_nM0pOWrZ4AAAO => connection terminated
+Thu Aug 16 2018 16:01:57 GMT-0500 (Central Daylight Time): new connection established: No6eqzVJcW79mX38AAAP
+Thu Aug 16 2018 16:01:58 GMT-0500 (Central Daylight Time): No6eqzVJcW79mX38AAAP => connection terminated
+Thu Aug 16 2018 16:01:59 GMT-0500 (Central Daylight Time): new connection established: 55vwPCzR3hlveyLAAAAQ
+Thu Aug 16 2018 16:02:15 GMT-0500 (Central Daylight Time): 55vwPCzR3hlveyLAAAAQ => connection terminated
+Thu Aug 16 2018 16:02:15 GMT-0500 (Central Daylight Time): new connection established: uWvBYb3qX3KmQPbxAAAR
+Thu Aug 16 2018 16:02:18 GMT-0500 (Central Daylight Time): uWvBYb3qX3KmQPbxAAAR => user sent message: asdf.
+Thu Aug 16 2018 16:02:20 GMT-0500 (Central Daylight Time): uWvBYb3qX3KmQPbxAAAR => user sent message: asdffda.
+Thu Aug 16 2018 16:02:22 GMT-0500 (Central Daylight Time): uWvBYb3qX3KmQPbxAAAR => user sent message: assadfasdfasdfasdfas.
+Thu Aug 16 2018 16:05:23 GMT-0500 (Central Daylight Time): uWvBYb3qX3KmQPbxAAAR => user sent message: asdffdas.
+Thu Aug 16 2018 16:09:25 GMT-0500 (Central Daylight Time): uWvBYb3qX3KmQPbxAAAR => connection terminated
+Thu Aug 16 2018 16:09:25 GMT-0500 (Central Daylight Time): new connection established: A5O0pZFgI_4fHgbXAAAS
+Thu Aug 16 2018 16:09:27 GMT-0500 (Central Daylight Time): A5O0pZFgI_4fHgbXAAAS => user sent message: asdf.
+Thu Aug 16 2018 16:09:29 GMT-0500 (Central Daylight Time): A5O0pZFgI_4fHgbXAAAS => user sent message: asdf.
+Thu Aug 16 2018 16:09:34 GMT-0500 (Central Daylight Time): A5O0pZFgI_4fHgbXAAAS => connection terminated
+Thu Aug 16 2018 16:09:35 GMT-0500 (Central Daylight Time): new connection established: Nzji8RbemOVLRHxGAAAT
+Thu Aug 16 2018 16:10:39 GMT-0500 (Central Daylight Time): Nzji8RbemOVLRHxGAAAT => connection terminated
+Thu Aug 16 2018 16:10:39 GMT-0500 (Central Daylight Time): new connection established: qUaTwfH1837BW-L0AAAU
+Thu Aug 16 2018 16:10:41 GMT-0500 (Central Daylight Time): qUaTwfH1837BW-L0AAAU => user sent message: asdf.
+Thu Aug 16 2018 16:11:22 GMT-0500 (Central Daylight Time): qUaTwfH1837BW-L0AAAU => connection terminated
+Thu Aug 16 2018 16:11:22 GMT-0500 (Central Daylight Time): new connection established: 0JgswZ9toyITadoTAAAV
+Thu Aug 16 2018 16:12:02 GMT-0500 (Central Daylight Time): 0JgswZ9toyITadoTAAAV => connection terminated
+Thu Aug 16 2018 16:12:03 GMT-0500 (Central Daylight Time): new connection established: I66DAlWSO_9NJXvNAAAW
+Thu Aug 16 2018 16:14:24 GMT-0500 (Central Daylight Time): I66DAlWSO_9NJXvNAAAW => connection terminated
+Thu Aug 16 2018 16:14:25 GMT-0500 (Central Daylight Time): new connection established: 80GZkR5m5TEfmJK6AAAX
+Thu Aug 16 2018 16:14:27 GMT-0500 (Central Daylight Time): 80GZkR5m5TEfmJK6AAAX => user sent message: asdf.
+Thu Aug 16 2018 16:15:50 GMT-0500 (Central Daylight Time): 80GZkR5m5TEfmJK6AAAX => connection terminated
+Thu Aug 16 2018 16:15:51 GMT-0500 (Central Daylight Time): new connection established: a6KG45AjpxD0aA2TAAAY
+Thu Aug 16 2018 16:16:06 GMT-0500 (Central Daylight Time): a6KG45AjpxD0aA2TAAAY => connection terminated
+Thu Aug 16 2018 16:16:07 GMT-0500 (Central Daylight Time): new connection established: alMVfJ5qfqpZYLf2AAAZ
+Thu Aug 16 2018 16:16:09 GMT-0500 (Central Daylight Time): alMVfJ5qfqpZYLf2AAAZ => connection terminated
+Thu Aug 16 2018 16:16:10 GMT-0500 (Central Daylight Time): new connection established: e0jpLqatevrBRWuTAAAa
+Thu Aug 16 2018 16:16:11 GMT-0500 (Central Daylight Time): e0jpLqatevrBRWuTAAAa => connection terminated
+Thu Aug 16 2018 16:16:12 GMT-0500 (Central Daylight Time): new connection established: bKjTh2bcLzewvh9DAAAb
+Thu Aug 16 2018 16:16:46 GMT-0500 (Central Daylight Time): bKjTh2bcLzewvh9DAAAb => connection terminated
+Thu Aug 16 2018 16:16:47 GMT-0500 (Central Daylight Time): new connection established: gqravVbZf6J0_AB1AAAc
+Thu Aug 16 2018 16:16:56 GMT-0500 (Central Daylight Time): gqravVbZf6J0_AB1AAAc => connection terminated
+Thu Aug 16 2018 16:16:57 GMT-0500 (Central Daylight Time): new connection established: 33QMdz7ebEzn-ougAAAd
+Thu Aug 16 2018 16:17:00 GMT-0500 (Central Daylight Time): 33QMdz7ebEzn-ougAAAd => user sent message: asdf.
+Thu Aug 16 2018 16:17:04 GMT-0500 (Central Daylight Time): 33QMdz7ebEzn-ougAAAd => user sent message: testng.
+Thu Aug 16 2018 16:17:05 GMT-0500 (Central Daylight Time): 33QMdz7ebEzn-ougAAAd => user sent message: testing.
+Thu Aug 16 2018 16:18:48 GMT-0500 (Central Daylight Time): 33QMdz7ebEzn-ougAAAd => connection terminated
+Thu Aug 16 2018 16:18:48 GMT-0500 (Central Daylight Time): new connection established: R-SOh0-inm7Eu0zMAAAe
+Thu Aug 16 2018 16:18:52 GMT-0500 (Central Daylight Time): R-SOh0-inm7Eu0zMAAAe => user sent message: asdf.
+Thu Aug 16 2018 16:18:59 GMT-0500 (Central Daylight Time): R-SOh0-inm7Eu0zMAAAe => user sent message: fdaasdffdsa.

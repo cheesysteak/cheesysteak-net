@@ -1,25 +1,21 @@
 <template>
     <div id="chatty">
-        <div class="row messages">
+        <div class="chatty-header">
+            #chat
+        </div>
+        <div class="messages">
             <div v-for="(msg, idx) in messages" :key="idx" class="message">
-                <div class="user">
-                    {{msg.user}}
-                </div>
-                <div class="messageContent">
-                    {{msg.message}}
+                <div class="messageContainer">
+                    <div class="user">
+                        {{msg.user}}
+                    </div>
+                    <div class="messageContent">
+                        {{msg.message}}
+                    </div>
                 </div>
             </div>
-            <table class="table">
-                <thead><th></th><th></th></thead>
-                <tbody>
-                    <tr v-for="(msg, idx) in messages" :key="idx">
-                        <td>{{msg.user}}</td>
-                        <td>{{msg.message}}</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
-        <div class="row">
+        <div>
             <form id="chatbox" @submit.prevent="sendMessage">
                 <input ref="message" v-model="message" autocomplete="off" placeholder="Type a message" />
                 <button class="btn btn-primary" type="submit">Send</button>
@@ -69,38 +65,45 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    #chatty {
+        position: relative;
+        height:100%;
+        width:100%;
+    }
+
 
     #chatbox { 
-        position: absolute; 
-        bottom: 0; 
-        left: 0;
-        
+        position: absolute;
+        bottom: 0;
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(12, 1fr);
         input {
             border: 0; 
             padding: 10px;
-            width:150px;
-            display:inline-block;
+            grid-column: span 11;
         }
 
         button {
-            width: 100px;
-            display:inline-block;
+            grid-column: span 1;
         }
     }
 
-    #messages { 
-        .messageContainer {
-            display:grid;
-            grid-template-columns: repeat(12, 1fr);
+    .message {
+        display:block;
+        width:100%;
+    }
 
-            .user {
-                grid-column:span 3;
-            }
+    .messageContainer {
+        display:grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
 
-            .messageContent {
-                grid-column:span 9;
-            }
-        }
+    .user {
+        grid-column:span 2;
+    }
 
+    .messageContent {
+        grid-column:span 2;
     }
 </style>

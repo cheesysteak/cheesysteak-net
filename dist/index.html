@@ -68,7 +68,7 @@
     
                 </nav>
             </div>
-            <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="wrapper wrapper-content animated fadeInRight" id="mainWrapper">
               <keep-alive><router-view></router-view></keep-alive>
             </div>
             <div class="footer">
@@ -83,4 +83,11 @@
   </div>
   </div>
   <script type="text/javascript" src="main.js"></script></body>
+  <style>
+      #mainWrapper {
+        height: calc(100% - 35px - 60px);
+        padding:0;
+        position: relative;
+      }
+  </style>
 </html>
