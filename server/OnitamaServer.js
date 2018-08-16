@@ -32,7 +32,7 @@ var setup = {
         });
 
         socket.on('game join', (id) => {
-            logger.logSocketAction(`join game. id: ${id}`)
+            logger.logSocketAction(socket, `join game. id: ${id}`)
 
             var game = games.filter(g => g.id === id)[0];
             

@@ -17,7 +17,11 @@ var logger = {
         });
     },
     logSocketAction: function(socket, message) {
-        this.log(`${socket.handshake.address} (${socket.id}) => ${message}`);
+        if(!socket || !socket.address) {
+            this.log(`(socket unspecified) => ${message}`);
+        } else {
+            this.log(`${socket.handshake.address} (${socket.id}) => ${message}`);
+        }
     }
 };
 
